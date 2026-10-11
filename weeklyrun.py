@@ -379,6 +379,38 @@ startingScenesRandom = VersionVariant({
         Stage("Disturbed Impact",       "villagenight"                ),
         Stage("Scorched Acres",         "wispgraveyard"               ),
     ]),
+
+    # Hallowed Concepts DLC Update
+    "1.5.0#1210": SceneCatalogV2([
+        Stage("Aphelian Sanctuary",     "ancientloft"                 ),
+        Stage("Distant Roost",         ["blackbeach", "blackbeach2"]  ),
+        Stage("Abyssal Depths",         "dampcavesimple"              ),
+        Stage("Wetland Aspect",         "foggyswamp"                  ),
+        Stage("Rallypoint Delta",       "frozenwall"                  ),
+        Stage("Damp Caverns",           "fungal"                      ),
+        Stage("Titanic Plains",        ["golemplains", "golemplains2"]),
+        Stage("Abandoned Aqueduct",     "goolake"                     ),
+        #Stage("Treeborn Colony",       "habitat"                     ),
+        Stage("Golden Dieback",         "habitatfall"                 ),
+        #Stage("Helminth Hatchery",     "helminthroost"               ),
+        Stage("Iron Alluvium",          "ironalluvium"                ),
+        Stage("Iron Auroras",           "ironalluvium2"               ),
+        Stage("Verdant Falls",          "lakes"                       ),
+        Stage("Viscous Falls",          "lakesnight"                  ),
+        Stage("Reformed Altar",         "lemuriantemple"              ),
+        Stage("Tenebrous Quagmire",     "mire"                        ),
+        Stage("Pretender's Precipice",  "nest"                        ),
+        Stage("Repurposed Crater",      "repurposedcrater"            ),
+        Stage("Sundered Grove",         "rootjungle"                  ),
+        Stage("Lurid Basilica",         "sanctum"                     ),
+        Stage("Siren's Call",           "shipgraveyard"               ),
+        #Stage("Sky Meadow",            "skymeadow"                   ), # Bugged stage 1 blacklist
+        Stage("Siphoned Forest",        "snowyforest"                 ),
+        Stage("Sulfur Pools",           "sulfurpools"                 ),
+        Stage("Shattered Abodes",       "village"                     ),
+        Stage("Disturbed Impact",       "villagenight"                ),
+        Stage("Scorched Acres",         "wispgraveyard"               ),
+    ]),
 })
 
 artifactCatalog = VersionVariant({
@@ -518,7 +550,8 @@ versionAlias = {
     "devotion":     "1.2.4.4", # 1.2.4.4 (Devotion)
     "sots":         "1.3.1#274", # 1.3.1#274 -> 1.3.9#553
     "seekers":      "1.3.1#274",
-    "alloyed":      "1.4.0#840", # 1.4.0#840 -> ...
+    "alloyed":      "1.4.0#840", # 1.4.0#840 -> 1.4.1#912
+    "hallowed":     "1.5.0#1210", # 1.5.0#1210 -> ...
 }
 
 versionDescriptions = {
@@ -528,6 +561,7 @@ versionDescriptions = {
     "Devotion": "Devotion Update",
     "SotS": "Seekers of the Storm DLC Update",
     "Alloyed": "Alloyed Collective DLC Update",
+    "Hallowed": "Hallowed Concepts DLC Update",
     "<version number>": "Any game version in the format 1.2.3.4 or 1.2.3#456"
 }
 

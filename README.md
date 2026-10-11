@@ -10,7 +10,8 @@ Pre-generated lists for every significant update are available.
 |Survivors of the Void DLC Update|1.2.1.0 -> 1.2.4.4 (SotV)|2022-03-01|[link](https://github.com/verstatx/ror2-trials-list/blob/master/lists/SotV-Prismatic-Trials.txt)|
 |Devotion Update|1.2.4.4 (Devotion)|2024-05-20|[link](https://github.com/verstatx/ror2-trials-list/blob/master/lists/Devotion-Prismatic-Trials.txt)|
 |Seekers of the Storm DLC Update|1.3.1#274 -> 1.3.9#553|2024-08-27|[link](https://github.com/verstatx/ror2-trials-list/blob/master/lists/SotS-Prismatic-Trials.txt)|
-|Alloyed Collective DLC Update|1.4.0#840 -> ...|2025-11-18|[link](https://github.com/verstatx/ror2-trials-list/blob/master/lists/Alloyed-Prismatic-Trials.txt)|
+|Alloyed Collective DLC Update|1.4.0#840 -> 1.4.1#912|2025-11-18|[link](https://github.com/verstatx/ror2-trials-list/blob/master/lists/Alloyed-Prismatic-Trials.txt)|
+|Hallowed Concepts DLC Update|1.5.0#1210 -> ...|2026-10-08|[link](https://github.com/verstatx/ror2-trials-list/blob/master/lists/Hallowed-Prismatic-Trials.txt)|
 
 ## Script Setup
 Requires python 3.7 or higher, and the `looseversion` python library.
@@ -52,7 +53,7 @@ positional arguments:
 options:
   -h, --help            show this help message and exit
   -v, --version GAME_VERSION
-                        Specify game version. (default: alloyed)
+                        Specify game version. (default: hallowed)
                         Supported Options:
                           1.0                 Initial Release                     (1.0.0.5)
                           Anniversary         Anniversary Update                  (1.1.0.1)
@@ -60,6 +61,7 @@ options:
                           Devotion            Devotion Update                     (1.2.4.4)
                           SotS                Seekers of the Storm DLC Update     (1.3.1#274)
                           Alloyed             Alloyed Collective DLC Update       (1.4.0#840)
+                          Hallowed            Hallowed Concepts DLC Update        (1.5.0#1210)
                           <version number>    Any game version in the format 1.2.3.4 or 1.2.3#456
   -d, --date YYYY-MM-DD
                         Start date to generate trials from. (default: now)

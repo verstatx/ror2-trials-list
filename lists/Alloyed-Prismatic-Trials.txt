@@ -1,5 +1,5 @@
 All 2362 valid Prismatic Trials + The final bugged trial
-Valid as of the Alloyed Collective DLC patch (v1.4.0#840+) which was released on 2025-11-18
+Valid as of the Alloyed Collective DLC patch (v1.4.0#840-v1.4.1#912) which was released on 2025-11-18
 This patch was released the middle of seed cycle 880, meaning trials before
 that point were not accessible online using these versions of the game.
 
